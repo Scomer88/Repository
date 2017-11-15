@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestingSuite" duration-ms="22492" started-at="2017-11-15T21:12:27Z" finished-at="2017-11-15T21:12:49Z">
+    <groups>
+    </groups>
+    <test name="Chrome Regression" duration-ms="22492" started-at="2017-11-15T21:12:27Z" finished-at="2017-11-15T21:12:49Z">
+      <class name="Regression.Full_Regression">
+        <test-method status="PASS" signature="browserChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="browserChoice" is-config="true" duration-ms="5324" started-at="2017-11-15T16:12:27Z" finished-at="2017-11-15T16:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserChoice -->
+        <test-method status="PASS" signature="urlChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="urlChoice" is-config="true" duration-ms="1796" started-at="2017-11-15T16:12:32Z" finished-at="2017-11-15T16:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[it-qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlChoice -->
+        <test-method status="PASS" signature="fullRegression()[pri:0, instance:Regression.Full_Regression@548e7350]" name="fullRegression" duration-ms="15330" started-at="2017-11-15T16:12:34Z" finished-at="2017-11-15T16:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullRegression -->
+      </class> <!-- Regression.Full_Regression -->
+    </test> <!-- Chrome Regression -->
+  </suite> <!-- TestingSuite -->
+</testng-results>

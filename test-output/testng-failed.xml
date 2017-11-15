@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestingSuite]">
+  <test name="Chrome Regression(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="URL" value="it-qa"/>
+    <classes>
+      <class name="Regression.Full_Regression">
+        <methods>
+          <include name="fullRegression"/>
+          <include name="urlChoice"/>
+          <include name="browserChoice"/>
+        </methods>
+      </class> <!-- Regression.Full_Regression -->
+    </classes>
+  </test> <!-- Chrome Regression(failed) -->
+</suite> <!-- Failed suite [TestingSuite] -->
