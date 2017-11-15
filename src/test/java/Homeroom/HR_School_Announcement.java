@@ -51,7 +51,6 @@ public class HR_School_Announcement extends Environment_Setup{
 	// Click Save
 		WebElement saveButton = driver.findElement(By.id("save"));
 		Assert.assertTrue(saveButton.isEnabled());
-		System.out.println("Save Button Enabled");
 		saveButton.click();
 		
 	// Verify Announcement
