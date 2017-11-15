@@ -24,6 +24,6 @@ import environment.Environment_Setup;
 		WebElement organization = driver.findElement(By.id("organizationCustomId"));
 		Assert.assertTrue(organization.isDisplayed());
 		
-		driver.quit();
+		driver.close();
 	}	
 }
