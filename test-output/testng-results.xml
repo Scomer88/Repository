@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestingSuite" duration-ms="23899" started-at="2017-11-16T15:29:41Z" finished-at="2017-11-16T15:30:05Z">
+  <suite name="TestingSuite" duration-ms="6274" started-at="2017-11-16T16:07:35Z" finished-at="2017-11-16T16:07:41Z">
     <groups>
     </groups>
-    <test name="Chrome Regression" duration-ms="23899" started-at="2017-11-16T15:29:41Z" finished-at="2017-11-16T15:30:05Z">
+    <test name="Chrome Regression" duration-ms="6274" started-at="2017-11-16T16:07:35Z" finished-at="2017-11-16T16:07:41Z">
       <class name="Regression.Full_Regression">
-        <test-method status="PASS" signature="browserChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="browserChoice" is-config="true" duration-ms="4963" started-at="2017-11-16T10:29:41Z" finished-at="2017-11-16T10:29:46Z">
+        <test-method status="PASS" signature="browserChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="browserChoice" is-config="true" duration-ms="3042" started-at="2017-11-16T11:07:35Z" finished-at="2017-11-16T11:07:38Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserChoice -->
-        <test-method status="PASS" signature="urlChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="urlChoice" is-config="true" duration-ms="3173" started-at="2017-11-16T10:29:46Z" finished-at="2017-11-16T10:29:49Z">
+        <test-method status="PASS" signature="urlChoice(java.lang.String)[pri:0, instance:Regression.Full_Regression@548e7350]" name="urlChoice" is-config="true" duration-ms="678" started-at="2017-11-16T11:07:38Z" finished-at="2017-11-16T11:07:38Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlChoice -->
-        <test-method status="PASS" signature="fullRegression()[pri:0, instance:Regression.Full_Regression@548e7350]" name="fullRegression" duration-ms="15741" started-at="2017-11-16T10:29:49Z" finished-at="2017-11-16T10:30:05Z">
+        <test-method status="PASS" signature="fullRegression()[pri:0, instance:Regression.Full_Regression@548e7350]" name="fullRegression" duration-ms="2539" started-at="2017-11-16T11:07:38Z" finished-at="2017-11-16T11:07:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fullRegression -->

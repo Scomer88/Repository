@@ -2,6 +2,7 @@ package environment;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeClass;
@@ -20,8 +21,11 @@ public abstract class Environment_Setup {
 	  public void browserChoice(String browser) {
  
 	  if(browser.equalsIgnoreCase("chrome")) {	 
-	      driver = new ChromeDriver();
-	      driver.manage().window().maximize();
+	      ChromeOptions options = new ChromeOptions();
+          options.addArguments("headless");
+          driver = new ChromeDriver(options);
+          //driver = new ChromeDriver();
+	      //driver.manage().window().maximize();
 	  	}	 
 	  else if(browser.equalsIgnoreCase("firefox")) {	 
 		  driver = new FirefoxDriver();	  	 
