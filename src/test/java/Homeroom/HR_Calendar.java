@@ -19,21 +19,21 @@ public class HR_Calendar extends Environment_Setup{
 	// Go to the Homeroom Tab	
 	  HR_GoTo_Homeroom.goToHomeroom();	
 		
-	// Verify the User Profile Link is visible in the Left NAv
+	// Verify the Calendar Link is visible in the Left NAv
 	  WebDriverWait wait = new WebDriverWait(driver, 10);
-	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("navuserProfile")));		  
-	  WebElement userProfileLink = driver.findElement(By.id("navuserProfile"));
-	  Assert.assertTrue(userProfileLink.isDisplayed());
+	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("navcalendar")));		  
+	  WebElement calendarLink = driver.findElement(By.id("navcalendar"));
+	  Assert.assertTrue(calendarLink.isDisplayed());
 	  
 	
 	// Click the User Profile Link in the Left NAv 
-	  userProfileLink.click();
+	  calendarLink.click();
 	  
 	  
-	// Verify the user is brought to the User Profile Page
-	  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div[2]/div/div[5]/div[1]")));
-      WebElement userProfileInfo = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[5]/div[1]"));
-	  Assert.assertTrue(userProfileInfo.isDisplayed());
+	// Verify the user now sees the Calendar
+	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("fullCalendar")));
+      WebElement calendar = driver.findElement(By.id("fullCalendar"));
+	  Assert.assertTrue(calendar.isDisplayed());
 	  
 	// ** Can Add more tests if needed ** 
 	  

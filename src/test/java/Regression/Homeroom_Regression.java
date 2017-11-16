@@ -2,6 +2,7 @@ package Regression;
 
 import org.testng.annotations.Test;
 
+import Homeroom.HR_Calendar;
 import Homeroom.HR_MC_Create_Message;
 import Homeroom.HR_Main_Office_Announcement;
 import Homeroom.HR_School_Announcement;
@@ -21,6 +22,7 @@ public class Homeroom_Regression extends Environment_Setup{
 		HR_Main_Office_Announcement.createMainOfficeAnnouncement();
 		HR_MC_Create_Message.createMessage();
 		HR_User_Profile.userProfile();
+		HR_Calendar.calendar();
 		Logout.logout();
 	}
 }
