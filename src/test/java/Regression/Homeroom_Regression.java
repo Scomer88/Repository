@@ -17,10 +17,10 @@ public class Homeroom_Regression extends Environment_Setup{
 	public static void homeroomRegression() {
 		
 		Login.login();
-		//HR_School_Announcement.createSchoolAnnouncement();
-		//HR_Main_Office_Announcement.createMainOfficeAnnouncement();
-		//HR_MC_Create_Message.createMessage();
-		//HR_User_Profile.userProfile();
+		HR_School_Announcement.createSchoolAnnouncement();
+		HR_Main_Office_Announcement.createMainOfficeAnnouncement();
+		HR_MC_Create_Message.createMessage();
+		HR_User_Profile.userProfile();
 		Logout.logout();
 	}
 }

@@ -9,7 +9,6 @@
         <methods>
           <include name="fullRegression"/>
           <include name="urlChoice"/>
-          <include name="output"/>
           <include name="browserChoice"/>
         </methods>
       </class> <!-- Regression.Full_Regression -->
