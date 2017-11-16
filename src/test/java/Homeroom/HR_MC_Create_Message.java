@@ -17,6 +17,9 @@ public class HR_MC_Create_Message extends Environment_Setup{
 	@Test
 	public static void createMessage() {
 		
+	// Go to the Homeroom Tab	
+	  HR_GoTo_Homeroom.goToHomeroom();	
+		
 	// Verify the Message Center Link is Visible in the Left NAv
 	  WebDriverWait wait = new WebDriverWait(driver, 10);
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("navnavMessageCenter")));		  

@@ -22,6 +22,10 @@ public class HR_School_Announcement extends Environment_Setup{
 	@Test
 	public static void createSchoolAnnouncement() {
 		
+		
+	// Go to the Homeroom Tab	
+		HR_GoTo_Homeroom.goToHomeroom();	
+		
 	// Verify the Create Announcement Button is Visible
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("createAnnouncementBtn")));

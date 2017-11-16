@@ -22,6 +22,9 @@ public class HR_Main_Office_Announcement extends Environment_Setup{
 	@Test
 	public static void createMainOfficeAnnouncement() {
 		
+	// Go to the Homeroom Tab	
+		HR_GoTo_Homeroom.goToHomeroom();		
+		
 	// Verify the Main Office Link is Visible
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("navmainofficehome")));
