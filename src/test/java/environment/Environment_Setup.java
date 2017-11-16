@@ -1,5 +1,9 @@
 package environment;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,9 +14,8 @@ import org.testng.annotations.Parameters;
 
 public abstract class Environment_Setup {
 	
-	  public static WebDriver driver;
-	  
-	  
+	  public static WebDriver driver;	  
+  
 	  
 // ** Setting up the Browser Variables that can be set in the XML Run file ** 
 		
