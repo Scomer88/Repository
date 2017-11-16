@@ -18,6 +18,9 @@ public class HR_Inbox_Link extends Environment_Setup{
 	@Test
 	public void inboxLink() {
 		
+	// Go to the Homeroom Tab	
+	  HR_GoTo_Homeroom.goToHomeroom();
+		
 	// Verify the Inbox link is appearing at the Top Right of the page
 	  WebDriverWait wait = new WebDriverWait(driver, 10);
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("navHdrInbox")));		  
