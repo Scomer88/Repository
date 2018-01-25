@@ -21,10 +21,10 @@ public abstract class Environment_Setup {
  
 	  if(browser.equalsIgnoreCase("chrome")) {	 
 	      ChromeOptions options = new ChromeOptions();
-          options.addArguments("headless");
-          driver = new ChromeDriver(options);
-          //driver = new ChromeDriver();
-	      //driver.manage().window().maximize();
+          //options.addArguments("headless");
+          //driver = new ChromeDriver(options);
+          driver = new ChromeDriver();
+	      driver.manage().window().maximize();
 	  	}	 
 	  else if(browser.equalsIgnoreCase("firefox")) {	 
 		  driver = new FirefoxDriver();	  	 
